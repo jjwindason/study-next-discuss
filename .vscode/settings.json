@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true, //每次保存的时候自动格式化
+    "editor.codeActionWidget.includeNearbyQuickFixes": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        // "source.organizeImports": "explicit", //格式化 import
+    },
+    "editor.comments.insertSpace": true,
+}
