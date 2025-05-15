@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { auth } from "../auth"
 
 export default async function UserInfo() {
@@ -7,7 +8,7 @@ export default async function UserInfo() {
     return (
         <div>
             <p>{JSON.stringify(session)}</p>
-            <img src={session.user.image || ''} alt="User Avatar" />
+            <Image src={session.user.image || ''} alt="User Avatar" />
         </div>
     )
 }
